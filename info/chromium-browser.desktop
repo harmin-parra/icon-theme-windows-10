@@ -1,0 +1,47 @@
+[Desktop Entry]
+Version=1.0
+Name=Chromium Web Browser
+Name[de]=Chromium-Webbrowser
+Name[es]=Navegador web Chromium
+Name[fr]=Navigateur Web Chromium
+GenericName=Web Browser
+GenericName[de]=Web-Browser
+GenericName[es]=Navegador web
+GenericName[fr]=Navigateur Web
+Comment=Access the Internet
+Comment[de]=Internetzugriff
+Comment[es]=Acceda a Internet
+Comment[fr]=Accéder à Internet
+Exec=/usr/bin/chromium %U
+Terminal=false
+Type=Application
+Icon=chromium
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/pdf;
+StartupNotify=true
+#StartupWMClass=chromium
+Actions=new-window;Incognito;
+#TempProfile;
+#X-AppInstall-Package=chromium-browser
+
+[Desktop Action new-window]
+Name=New Window
+Name[de]=Neues Fenster
+Name[es]=Ventana nueva
+Name[fr]=Nouvelle fenêtre
+Exec=/usr/bin/chromium
+
+[Desktop Action Incognito]
+Name=New Incognito Window
+Name[de]=Neues Fenster im Inkognito-Modus
+Name[es]=Ventana nueva en modo incógnito
+Name[fr]=Nouvelle fenêtre en mode navigation privée
+Exec=/usr/bin/chromium --incognito
+
+[Desktop Action TempProfile]
+Name=New Window with a Temporary Profile
+Name[de]=Neues Fenster mit einem temporären Profil
+Name[es]=Ventana nueva con perfil temporal
+Name[fr]=Nouvelle fenêtre avec un profil temporaire
+Exec=chromium --temp-profile
+

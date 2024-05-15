@@ -1,0 +1,6 @@
+Commands to update icon theme and mime type database
+
+```
+gtk-update-icon-cache /path/to/icons
+update-mime-database /path/to/mime
+```
