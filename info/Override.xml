@@ -44,6 +44,12 @@
         <glob pattern="*.war" />
     </mime-type>
 
+    <mime-type type="application/x-keepass2">
+      <comment>KeePass 2 database</comment>
+      <glob pattern="*.kdbx"/>
+      <icon name="keepass2"/>
+    </mime-type>
+
     <!--mime-type type="application/x-newtype">
         <comment>new mime type</comment>
         <glob pattern="*.xyz"/>
