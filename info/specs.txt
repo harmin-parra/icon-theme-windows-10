@@ -1,6 +1,0 @@
-https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
-https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html
-https://specifications.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html
-https://specifications.freedesktop.org/menu-spec/menu-spec-latest.html
-https://specifications.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html
-

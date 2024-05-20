@@ -1,5 +1,0 @@
-nm-device-wired
-nm-device-wired-symbolic
-nm-device-wired-secure-symbolic
-nm-no-connection
-
